@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gunpla finder</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="DataTables/datatables.min.css">
+    <link rel="stylesheet" href="override.css">
+    <link rel="stylesheet" href="NoUiSlider/nouislider.min.css">
+</head>
+<body class="bg-body-tertiary text-white container-fluid">
+    <div class="row bg-body border-white border-1 border-bottom">
+        <div class="col">
+            <figure class="text-center">
+                <blockquote class="h1">
+                    <p>Gunpla Finder</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Not sponsored by Bandai
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row border-bottom border-5 border-white">
+        <div class="col-sm-10 bg-body-tertiary border-white border-1 border-end">
+            <div class="row bg-body-secondary border-white border-1 border-bottom pt-1">
+                <h3 class="text-center">
+                    Filters
+                </h3>
+            </div>
+            <div class="row bg-body-secondary border-white border-1 border-bottom pt-1 pb-1">
+                <div class="col-sm-4 bg-body-secondary border-white border-1 border-end">
+                    <div class="row">
+                        <h4 class="text-center">
+                            Grade
+                        </h4>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-auto d-flex flex-column align-items-start">
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="sd" id="sd" class="gradeCheckbox form-check-input" value="SD" checked>
+                                    <label for="sd">SD</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="hg" id="hg" class="gradeCheckbox form-check-input" value="HG" checked>
+                                    <label for="hg">HG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="rg" id="rg" class="gradeCheckbox form-check-input" value="RG" checked>
+                                    <label for="rg">RG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="mg" id="mg" class="gradeCheckbox form-check-input" value="MG" checked>
+                                    <label for="mg">MG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="pg" id="pg" class="gradeCheckbox form-check-input" value="PG" checked>
+                                    <label for="pg">PG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="sdbb" id="sdbb" class="gradeCheckbox form-check-input" value="SDBB" checked>
+                                    <label for="sdbb">SDBB</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="sdex" id="sdex" class="gradeCheckbox form-check-input" value="SDEX" checked>
+                                    <label for="sdex">SDEX</label>
+                                </div>
+                            </div>
+                            <div class="col-auto d-flex flex-column align-items-start">
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="sdcs" id="sdcs" class="gradeCheckbox form-check-input" value="SDCS" checked>
+                                    <label for="sdcs">SDCS</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="sdgg" id="sdgg" class="gradeCheckbox form-check-input" value="SDGG" checked>
+                                    <label for="sdgg">SDGG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="ng" id="ng" class="gradeCheckbox form-check-input" value="NG" checked>
+                                    <label for="ng">NG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="ag" id="ag" class="gradeCheckbox form-check-input" value="AG" checked>
+                                    <label for="ag">AG</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="fm" id="fm" class="gradeCheckbox form-check-input" value="FM" checked>
+                                    <label for="fm">FM</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="re100" id="re100" class="gradeCheckbox form-check-input" value="RE/100" checked>
+                                    <label for="re100">RE/100</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="eg" id="eg" class="gradeCheckbox form-check-input" value="EG" checked>
+                                    <label for="sdcs">EG</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 bg-body-secondary bg-body-secondary border-white border-1 border-end">
+                    <div class="row">
+                        <h4 class="text-center">
+                            Scale
+                        </h4>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-auto d-flex flex-column align-items-start">
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="1-144" id="1-144" value="1/144" checked class="scaleCheckbox form-check-input">
+                                    <label for="1-144">1/144</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="1-100" id="1-100" value="1/100" checked class="scaleCheckbox form-check-input">
+                                    <label for="1-100">1/100</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="1-60" id="1-60" value="1/60" checked class="scaleCheckbox form-check-input">
+                                    <label for="1-60">1/60</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="1-48" id="1-48" value="1/48" checked class="scaleCheckbox form-check-input">
+                                    <label for="1-48">1/48</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" name="noScale" id="noScale" value="Non-scale" checked class="scaleCheckbox form-check-input">
+                                    <label for="noScale">Non-scale</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 bg-body-secondary bg-body-secondary border-white border-1 border-end">
+                    <div class="row">
+                        <h4 class="text-center">
+                            Continuity
+                        </h4>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-auto d-flex flex-column align-items-start">
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="adStella" id="adStella" value="Ad Stella" class="continuityCheckbox form-check-input" checked>
+                                <label for="adStella">Ad Stella</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="advancedGeneration" id="advancedGeneration" value="Advanced Generation" class="continuityCheckbox form-check-input" checked>
+                                <label for="advancedGeneration">Advanced Generation</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="afterColony" id="afterColony" value="After Colony" class="continuityCheckbox form-check-input" checked>
+                                <label for="afterColony">After Colony</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="afterWar" id="afterWar" value="After War" class="continuityCheckbox form-check-input" checked>
+                                <label for="afterWar">After War</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="alternateUniverse" id="alternateUniverse" value="Alternate Universe" class="continuityCheckbox form-check-input" checked>
+                                <label for="alternateUniverse">Alternate Universe</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="annoDomini" id="annoDomini" value="Anno Domini" class="continuityCheckbox form-check-input" checked>
+                                <label for="annoDomini">Anno Domini</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="correctCentury" id="correctCentury" value="Correct Century" class="continuityCheckbox form-check-input" checked>
+                                <label for="correctCentury">Correct Century</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="cosmicEra" id="cosmicEra" value="Cosmic Era" class="continuityCheckbox form-check-input" checked>
+                                <label for="cosmicEra">Cosmic Era</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="futureCentury" id="futureCentury" value="Future Century" class="continuityCheckbox form-check-input" checked>
+                                <label for="futureCentury">Future Century</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="postDisaster" id="postDisaster" value="Post Disaster" class="continuityCheckbox form-check-input" checked>
+                                <label for="postDisaster">Post Disaster</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="regilidCentury" id="regilidCentury" value="Regilid Century" class="continuityCheckbox form-check-input" checked>
+                                <label for="regilidCentury">Regilid Century</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" name="universalCentury" id="universalCentury" value="Universal Century" class="continuityCheckbox form-check-input" checked>
+                                <label for="universalCentury">Universal Century</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 bg-body-secondary">
+                    <div class="row">
+                        <h4 class="text-center">
+                            Kit Release Date
+                        </h4>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <div class="mb-2">
+                                <label for="day1" class="text-center d-block w-100">Day</label>
+                                <input type="number" name="day1" id="day1" min="1" max="31" value="1" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="month1" class="text-center d-block w-100">Month</label>
+                                <input type="number" name="month1" id="month1" min="1" max="12" value="1" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="year1" class="text-center d-block w-100">Year</label>
+                                <input type="number" name="year1" id="year1" min="1970" max="2025" value="1970" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 d-flex justify-content-center">
+                            <h6>TO</h6>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="mb-2">
+                                <label for="day2" class="text-center d-block w-100">Day</label>
+                                <input type="number" name="day2" id="day2" min="1" max="31" value="1" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="month2" class="text-center d-block w-100">Month</label>
+                                <input type="number" name="month2" id="month2" min="1" max="12" value="1" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="year2" class="text-center d-block w-100">Year</label>
+                                <input type="number" name="year2" id="year2" min="1970" max="2025" value="2025" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-body-secondary pt-1 pb-2">
+                <div class="col-sm-5">
+                    <div class="row">
+                        <h4 class="text-center">
+                            MSRP Range
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="slider" class="slider"></div>
+                        </div>
+                    </div>
+                    <div class="row ps-3 pe-3">
+                        <div class="col-sm-3">
+                            <input type="number" name="leftNum" id="leftNum" class="form-control">
+                        </div>
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-3 d-flex justify-content-end">
+                            <input type="number" name="rightNum" id="rightNum" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <h4 class="text-center">
+                            Production Year of Series
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="slider2" class="slider"></div>
+                        </div>
+                    </div>
+                    <div class="row ps-3 pe-3">
+                        <div class="col-sm-3">
+                            <input type="number" name="leftNum2" id="leftNum2" class="form-control">
+                        </div>
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-3 d-flex justify-content-end">
+                            <input type="number" name="rightNum2" id="rightNum2" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 bg-body-secondary">
+            <div class="row mb-3 mt-2 border-white border-1 border-bottom pb-3">
+                <div class="col">
+                    <div class="row">
+                        <h5 class="text-center">
+                            Run Your Filtered Search
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <button type="button" id="submitBtn" class="btn bg-body btn-outline-light" data-bs-toggle="tooltip" title="Run your filtered search">Submit Query</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3 border-white border-1 border-bottom pb-3">
+                <div class="col">
+                    <div class="row">
+                        <h5 class="text-center">
+                            Insert Database File Here
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <input type="file" id="upload">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3 border-white border-1 border-bottom pb-3">
+                <div class="col">
+                    <div class="row">
+                        <h5 class="text-center">
+                            AUD <-> YEN Converter
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="aud" class="input-group-text w-25">AUD</label>
+                            <input type="text" name="aud" id="aud" inputmode="decimal" placeholder="$0.00" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="yen" class="input-group-text w-25">YEN</label>
+                            <input type="text" name="yen" id="yen" inputmode="decimal" placeholder="¥0" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="https://gundam.fandom.com/wiki/The_Gundam_Wiki" target="_blank" class="text-info">Visit the Gundam Wiki for more information!</a>
+                    <p>
+                        Not sure what some of these filters mean? Check the Gundam Wiki for detailed breakdowns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 bg-body-tertiary">
+            <table id="results" class="display table table-striped table-bordered">
+                <tfoot></tfoot>
+            </table>
+        </div>
+    </div>
+
+    <script src="sql.js"></script>
+    <script src="dnr.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="DataTables/datatables.min.js"></script>
+    <script src="NoUiSlider/nouislider.min.js"></script>
+    <script src="wNumb/wNumb.min.js"></script>
+    <script src="sql_queries2.js"></script>
+    <script src="sliders.js"></script>
+    <script src="currencyConverter.js"></script>
+    <script src="init.js"></script>
+</body>
+</html>

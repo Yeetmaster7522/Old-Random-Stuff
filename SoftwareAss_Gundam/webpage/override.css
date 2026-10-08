@@ -1,0 +1,65 @@
+/* do not allow user to scroll horizontally */
+body {
+    overflow-x: hidden;
+}
+
+/* make buttons fit inside the slider */
+.slider {
+    padding: 0 16px;
+}
+
+/* slider connection colour */
+.slider .noUi-connect {
+  background-color: var(--bs-info) !important;
+}
+
+/* makes arrows be on the right while the column header is on the left */
+th .dt-column-header {
+    display: flex !important; 
+    flex-direction: row !important; 
+    align-items: center !important; 
+    justify-content: flex-start !important; 
+} 
+
+/* forces table to use fixed column widths, fill container width, and not resize based on content */
+table.dataTable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Base pagination buttons */
+.page-item .page-link {
+  color: var(--bs-info) !important;
+  border: 1px solid var(--bs-info) !important;
+  background-color: transparent !important;
+}
+
+/* Active page */
+.page-item.active .page-link {
+  background-color: var(--bs-info) !important;
+  color: #fff !important;
+  border-color: var(--bs-info) !important;
+}
+
+/* Hover effect */
+.page-item .page-link:hover {
+  background-color: rgba(var(--bs-info-rgb), 0.85) !important;
+  color: #fff !important;
+  border-color: var(--bs-info) !important;
+}
+
+/* Disabled buttons (like « or » when inactive) */
+.page-item.disabled .page-link {
+  color: rgba(var(--bs-info-rgb), 0.35) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-info) !important;
+    border-color: var(--bs-info) !important;
+}
+
+.form-check-input {
+    border-color: var(--bs-info) !important;
+}

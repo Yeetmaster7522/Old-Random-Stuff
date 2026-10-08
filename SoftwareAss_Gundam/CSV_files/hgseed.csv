@@ -1,0 +1,84 @@
+Order,Product_name,Release_date,First_appearance,Grade,MSRP
+1,Aile Strike Gundam,2002-11-16,Mobile Suit Gundam SEED,HG,1320
+2,Duel Gundam Assault Shroud,2002-11-16,Mobile Suit Gundam SEED,HG,1320
+3,Aegis Gundam,2002-12-25,Mobile Suit Gundam SEED,HG,1320
+4,Buster Gundam,2003-01-01,Mobile Suit Gundam SEED,HG,1100
+5,Blitz Gundam,2003-04-01,Mobile Suit Gundam SEED,HG,1320
+6,Mobile GINN,2003-04-01,Mobile Suit Gundam SEED,HG,1100
+7,Freedom Gundam,2003-06-01,Mobile Suit Gundam SEED,HG,1650
+8,Justice Gundam,2003-07-01,Mobile Suit Gundam SEED,HG,1650
+9,Calamity Gundam,2003-08-01,Mobile Suit Gundam SEED,HG,1320
+10,Forbidden Gundam,2003-09-01,Mobile Suit Gundam SEED,HG,1650
+11,Raider Gundam,2003-11-01,Mobile Suit Gundam SEED,HG,1650
+12,Gundam Astray Red Frame,2003-11-01,Mobile Suit Gundam SEED Astray,HG,1320
+13,Gundam Astray Blue Frame,2004-02-01,Mobile Suit Gundam SEED Astray,HG,1320
+14,Providence Gundam,2004-03-01,Mobile Suit Gundam SEED,HG,1650
+15,Mobile CGUE,2004-04-01,Mobile Suit Gundam SEED,HG,1320
+16,Meteor Unit + Freedom Gundam,2004-05-01,Mobile Suit Gundam SEED,HG,8800
+MSV1,Mobile GINN (Miguel Aiman),2004-05-01,Mobile Suit Gundam SEED MSV,HG,1100
+MSV2,Strike Rouge + IWSP,2004-05-01,Mobile Suit Gundam SEED MSV,HG,1650
+MSV3,GINN Type High-Maneuver,2004-06-01,Mobile Suit Gundam SEED MSV,HG,1320
+MSV4,Hyperion Gundam,2004-07-01,Mobile Suit Gundam SEED MSV,HG,1320
+MSV5,CGUE Type D.E.E.P. Arms,2004-08-01,Mobile Suit Gundam SEED MSV,HG,1650
+MSV6,105 Dagger + Gunbarrel,2004-09-01,Mobile Suit Gundam SEED MSV,HG,1650
+MSV7,Dreadnought Gundam,2004-10-01,Mobile Suit Gundam SEED MSV,HG,1650
+17,Force Impulse Gundam,2004-11-01,Mobile Suit Gundam SEED Destiny,HG,1650
+18,ZAKU Warrior,2004-11-01,Mobile Suit Gundam SEED Destiny,HG,1100
+19,Chaos Gundam,2004-12-01,Mobile Suit Gundam SEED Destiny,HG,1650
+20,Gaia Gundam,2005-01-01,Mobile Suit Gundam SEED Destiny,HG,1650
+21,Sword Impulse Gundam,2005-02-01,Mobile Suit Gundam SEED Destiny,HG,1650
+22,Gunner ZAKU Warrior (Lunamaria Hawke Custom),2005-02-01,Mobile Suit Gundam SEED Destiny,HG,1430
+23,Gunner ZAKU Warrior,2005-03-01,Mobile Suit Gundam SEED Destiny,HG,1430
+24,Saviour Gundam,2005-03-01,Mobile Suit Gundam SEED Destiny,HG,1650
+25,ZAKU Warrior (Live Concert Ver.),2005-03-01,Mobile Suit Gundam SEED Destiny,HG,1100
+26,Abyss Gundam,2005-04-07,Mobile Suit Gundam SEED Destiny,HG,1650
+27,GOUF Ignited (Heine Westenfluss Custom),2005-05-01,Mobile Suit Gundam SEED Destiny,HG,1650
+28,Blaze ZAKU Phantom (Rey Za Burrel Custom),2005-06-29,Mobile Suit Gundam SEED Destiny,HG,1650
+29,GINN Type High-Maneuver 2,2005-07-16,Mobile Suit Gundam SEED Destiny,HG,1650
+30,DOM Trooper,2005-07-30,Mobile Suit Gundam SEED Destiny,HG,1650
+31,GOUF Ignited (Mass Production Version),2005-08-12,Mobile Suit Gundam SEED Destiny,HG,1650
+32,Infinite Justice Gundam,2005-08-21,Mobile Suit Gundam SEED Destiny,HG,1760
+33,Gaia Gundam (Andrew Waltfeld Custom),2005-08-01,Mobile Suit Gundam SEED Destiny,HG,1650
+34,Strike Freedom Gundam,2005-09-30,Mobile Suit Gundam SEED Destiny,HG,1760
+35,Legend Gundam,2005-10-21,Mobile Suit Gundam SEED Destiny,HG,1650
+36,Destiny Gundam,2005-11-23,Mobile Suit Gundam SEED Destiny,HG,1760
+37,Murasame (Andrew Waltfeld Custom),2005-12-17,Mobile Suit Gundam SEED Destiny,HG,1650
+38,Shiranui Akatsuki Gundam,2006-01-28,Mobile Suit Gundam SEED Destiny,HG,2640
+39,Murasame,2006-03-11,Mobile Suit Gundam SEED Destiny,HG,1650
+40,Oowashi Akatsuki Gundam,2006-04-23,Mobile Suit Gundam SEED Destiny,HG,2640
+41,Strike Noir Gundam,2006-06-30,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1650
+42,Verde Buster Gundam,2006-08-09,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1760
+43,105 Slaughter Dagger,2006-08-01,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1320
+44,Blu Duel Gundam,2006-09-09,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1760
+45,GINN Type Insurgent,2006-09-01,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1320
+46,Kerberos BuCUE Hound,2006-11-24,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1200
+47,Stargazer Gundam,2006-11-24,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1760
+48,Mobile BuCUE,2007-01-20,Mobile Suit Gundam SEED,HG,1540
+49,Civilian Astray DSSD Custom,2007-02-01,Mobile Suit Gundam SEED C.E. 73: Stargazer,HG,1650
+50,GOUF Ignited (Yzak Joule Custom),2007-08-11,Mobile Suit Gundam SEED Destiny,HG,1650
+51,Blaze ZAKU Phantom (Dearka Elsman Custom),2007-09-08,Mobile Suit Gundam SEED Destiny,HG,1650
+52,Rudolf Wittgenstein's GOUF Ignited,2008-01-26,Mobile Suit Gundam SEED Astray,HG,1650
+53,Kerberos BuCUE Hound (Alec Ladd Custom),2008-02-23,Mobile Suit Gundam SEED Astray,HG,1650
+54,Mobile CGUE (Xist Elwes Custom),2008-02-23,Mobile Suit Gundam SEED Astray,HG,1320
+55,Astray Green Frame (Trojan Noiret Custom),2008-03-26,Mobile Suit Gundam SEED Astray,HG,1320
+56,Arms Astray PMC Custom (Leons Graves Custom),2008-03-26,Mobile Suit Gundam SEED Frame Astrays,HG,1650
+57,Gundam Astray Blue Frame Second L,2013-05-25,Mobile Suit Gundam SEED Astray,HG,1870
+58,Gundam Astray Red Frame (Flight Unit),2013-08-24,Mobile Suit Gundam SEED Astray,HG,1870
+59,Gundam Astray Gold Frame Amatsu Mina,2013-09-21,Mobile Suit Gundam SEED Astray R,HG,1980
+R1,LaGOWE,2011-11-19,Mobile Suit Gundam SEED,HG,1320
+R2,M1 Astray,2011-11-19,Mobile Suit Gundam SEED,HG,1320
+R3,Perfect Strike Gundam,2011-11-19,Mobile Suit Gundam SEED,HG,1100
+R4,Blitz Gundam,2011-11-19,Mobile Suit Gundam SEED,HG,1320
+R5,Aegis Gundam,2011-11-19,Mobile Suit Gundam SEED,HG,1320
+R6,Mobile GINN,2011-11-19,Mobile Suit Gundam SEED,HG,1100
+R7,Mobile CGUE,2012-01-21,Mobile Suit Gundam SEED,HG,1320
+R8,Calamity Gundam,2012-01-21,Mobile Suit Gundam SEED,HG,1320
+R9,Forbidden Gundam,2012-01-01,Mobile Suit Gundam SEED,HG,1650
+R10,Raider Gundam,2012-01-21,Mobile Suit Gundam SEED,HG,1650
+R11,LaGOWE,2012-02-25,Mobile Suit Gundam SEED,HG,1540
+R12,Mobile BuCUE,2012-02-25,Mobile Suit Gundam SEED,HG,1540
+R13,Providence Gundam,2012-02-25,Mobile Suit Gundam SEED,HG,1650
+R14,Justice Gundam,2012-02-29,Mobile Suit Gundam SEED,HG,1650
+R15,Freedom Gundam,2012-02-29,Mobile Suit Gundam SEED,HG,1650
+R16,M1 Astray,2012-06-23,Mobile Suit Gundam SEED,HG,1540
+R17,Perfect Strike Gundam,2013-02-23,Mobile Suit Gundam SEED HD Remaster,HG,1870

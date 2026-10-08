@@ -1,0 +1,64 @@
+Order,Product_name,Release_date,First_appearance,Grade,MSRP
+1,Nu Gundam,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+2,Sazabi,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+3,Jagd Doga,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+4,Jegan,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+5,Re-GZ Custom,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+6,Geara Doga Custom,1988-01-01,Mobile Suit Gundam: Char’s Counterattack,SDGG,440
+7,Full Armor Gundam Mk-II,1988-01-01,Zeta Gundam Mobile Suit Variations,SDGG,440
+8,Zaku III Custom,1988-01-01,Mobile Suit Gundam ZZ,SDGG,440
+9,Johnny Ridden's Gelgoog,1988-01-01,Mobile Suit Variation,SDGG,440
+10,Zeong,1988-01-01,Mobile Suit Gundam,SDGG,440
+11,Gates' Bound Doc,1988-01-01,Mobile Suit Zeta Gundam,SDGG,440
+12,ZZ Gundam & Mega Rider,1988-01-01,Mobile Suit Gundam ZZ,SDGG,440
+13,Perfect Gundam,1988-01-01,Plamo-Kyoshiro,SDGG,440
+14,Zeta Plus A1,1989-01-01,Gundam Sentinel,SDGG,440
+15,S Gundam,1989-01-01,Gundam Sentinel,SDGG,440
+16,Guncannon,1989-01-01,Mobile Suit Gundam,SDGG,440
+17,Zaku II,1989-01-01,Mobile Suit Gundam,SDGG,440
+18,GM Custom,1989-01-01,Mobile Suit Gundam 0083: Stardust Memory,SDGG,440
+19,Kampfer,1989-01-01,Mobile Suit Gundam 0080: War in the Pocket,SDGG,440
+20,G-Armor,1989-01-01,Mobile Suit Gundam,SDGG,550
+21,Gundam F91,1991-01-01,Mobile Suit Gundam F91,SDGG,550
+22,Gundam F90 A / P / V Type,1991-01-01,Mobile Suit Gundam F90,SDGG,550
+23,V Gundam,1999-11-01,Mobile Suit Victory Gundam,SDGG,550
+24,V2 Gundam,1999-11-01,Mobile Suit Victory Gundam,SDGG,880
+25,Shining Gundam,1999-11-01,Mobile Fighter G Gundam,SDGG,550
+26,Dragon Gundam,1999-11-01,Mobile Fighter G Gundam,SDGG,550
+27,Gundam Maxter,1999-11-01,Mobile Fighter G Gundam,SDGG,550
+28,G Gundam,1999-11-01,Mobile Fighter G Gundam,SDGG,550
+29,Gundam X,2000-02-01,After War Gundam X,SDGG,440
+30,Z'Gok (Char Aznable Custom),2000-02-01,Mobile Suit Gundam,SDGG,440
+31,Gundam Mk-IV,2000-02-01,SD Gundam G Generation Zero,SDGG,440
+32,Gouf Custom,2000-02-01,Mobile Suit Gundam: The 08th MS Team,SDGG,440
+33,Gundam Geminass 01,2000-02-01,Mobile Suit Gundam Wing: G-Unit,SDGG,440
+34,Wing Gundam,2000-03-01,Mobile Suit Gundam Wing,SDGG,550
+35,Gundam Deathscythe,2000-03-01,Mobile Suit Gundam Wing,SDGG,440
+36,Gundam Heavyarms,2000-03-01,Mobile Suit Gundam Wing,SDGG,440
+37,Gundam Sandrock,2000-03-01,Mobile Suit Gundam Wing,SDGG,440
+38,Shenlong Gundam,2000-03-01,Mobile Suit Gundam Wing,SDGG,440
+39,Gundam Ez8,2000-04-01,Mobile Suit Gundam: The 08th MS Team,SDGG,440
+40,Turn A Gundam,2000-04-01,Turn A Gundam,SDGG,440
+41,Wing Gundam Zero,2000-04-01,Mobile Suit Gundam Wing,SDGG,550
+42,Dom,2000-04-01,Mobile Suit Gundam,SDGG,440
+43,Z'Gok,2000-05-01,Mobile Suit Gundam,SDGG,440
+44,Gundam Double X,2000-06-01,After War Gundam X,SDGG,440
+45,Gundam Leopard,2000-06-01,After War Gundam X,SDGG,440
+46,Gundam Airmaster,2000-06-01,After War Gundam X,SDGG,440
+47,Gundam Epyon,2000-06-01,Mobile Suit Gundam Wing,SDGG,440
+48,Tallgeese,2000-08-01,Mobile Suit Gundam Wing,SDGG,440
+49,Hyaku-Shiki,2000-08-01,Mobile Suit Zeta Gundam,SDGG,440
+50,Gundam Aquarius,2000-09-01,Mobile Suit Gundam Wing: G-Unit,SDGG,440
+51,Gundam GP04,2000-10-01,Mobile Suit Gundam: Gihren’s Greed,SDGG,440
+52,Blue Destiny Unit 3,2000-10-01,Mobile Suit Gundam Side Story: The Blue Destiny,SDGG,440
+53,Queen Mansa,2000-11-01,Mobile Suit Gundam ZZ,SDGG,440
+54,Gouf,2000-11-01,Mobile Suit Gundam,SDGG,440
+55,Maganac,2000-12-01,Mobile Suit Gundam Wing,SDGG,440
+56,Big Zam,2001-01-01,Mobile Suit Gundam,SDGG,440
+57,Elmeth,2001-02-01,Mobile Suit Gundam,SDGG,440
+58,Master Gundam,2001-03-01,Mobile Fighter G Gundam,SDGG,440
+59,Crossbone Gundam X-1,2001-04-01,Mobile Suit Crossbone Gundam,SDGG,440
+60,Qubeley,2001-05-01,Mobile Suit Zeta Gundam,SDGG,440
+61,Blue Destiny Unit 1,2001-11-01,Mobile Suit Gundam Side Story: The Blue Destiny,SDGG,440
+62,Hyaku-Shiki + Mega Launcher,2001-10-01,Mobile Suit Zeta Gundam,SDGG,880
+63,Crossbone Gundam X-2,2002-01-01,Mobile Suit Crossbone Gundam,SDGG,440
